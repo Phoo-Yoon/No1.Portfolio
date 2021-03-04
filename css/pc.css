@@ -1,0 +1,340 @@
+/* wrap Start */
+#wrap{
+    width : 100vw;
+    overflow: hidden;
+}
+
+/* header Start */
+header{
+    width : 100vw;
+    height : 100px;
+    background-color: antiquewhite;
+}
+#logo_wrap{
+    width : 100px;
+    height: 100px;
+    background-color: lightpink;
+    float : left;
+    margin-left : 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo_img{
+    width : 80px;
+    height:  80px;
+    background-color: lightsalmon;
+    text-align: center;
+    line-height: 80px;
+}
+#logo_text{
+    width : 100px;
+    height : 20px;
+    background-color: lightseagreen;
+    text-align: center;
+    line-height: 20px;
+}
+
+#header_right{
+    width : 150px;
+    height : 100px;
+    background-color: lightskyblue;
+    float : right;
+    margin-right : 50px;
+}
+#shop_my{
+    width : 150px;
+    height:  80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#shop_my li{
+    width : 65px;
+    height: 65px;
+    background-color: lightgreen;
+}
+select{
+    width : 150px;
+    height: 20px;
+    border : 1px solid white;
+    border-radius: 5px;
+    outline : none;
+}
+/* header End */
+
+/* section Start */
+section{
+    width : 100vw;
+    overflow: hidden;
+    position : relative;
+}
+/* main article Start */
+#main_article_rank{
+    width : 100vw;
+    overflow: hidden;
+    background-color: gold;
+}
+#main_article_container{
+    width : 70vw;
+    height: 500px;
+    float : left;
+}
+.main_article_slide{
+    background-color: beige;
+    width : 70vw;
+    height: 500px;
+}
+#rank_wrap{
+    width : 20vw;
+    height:  500px;
+    float : right;
+    background-color: gray;
+    margin-right : 50px
+}
+/* main article End */
+
+/* team schedule Start */
+#team_schedule_wrap{
+    width : 100vw;
+    height: 300px;
+    background-color: brown;
+    margin-top : 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#result_wrap{
+    width : 30vw;
+    height: 300px;
+    background-color: burlywood;
+    float : left;
+    margin-left : 50px;
+}
+#next_schedule_wrap{
+    width : 30vw;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+#schedule_wrap{
+    width : 30vw;
+    height: 300px;
+    background-color: honeydew;
+    float : right;
+    margin-right : 50px;
+}
+/* team schedule End */
+
+/* injured transfer Start */
+#team_injured_transfer{
+    width : 100vw;
+    height: 300px;
+    background-color: crimson;
+    margin-top : 50px;
+}
+#injured_mask{
+    width : 30vw;
+    height: 300px;
+    background-color: darkorange;
+    float : left;
+    margin-left : 50px;
+}
+#transfer_mask{
+    width : 50vw;
+    height: 300px;
+    background-color: deepskyblue;
+    float : right;
+    margin-right : 50px;
+}
+/* injured transfer End */
+
+/* product Start */
+#product_container{
+    width : 100vw;
+    height: 300px;
+    background-color: firebrick;
+    margin-top : 50px;
+}
+.product_slide{
+    width : 30vw;
+    height: 300px;
+    background-color: floralwhite;
+}
+/* product End */
+
+/* sponsor Start */
+#sponsor_site_wrap{
+    width : 1920px;
+    height: 300px;
+    background-color: cornflowerblue;
+    margin-top : 50px;
+    position : relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#sponsor_site_top_wrap{
+    width : 1920px;
+    height : 100px;
+    background-color: crimson;
+    position : relative;
+}
+#sponsor_first_wrap{
+    width : 1000px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left : 460px;
+    margin-top : 5px;
+    background-color: darkgoldenrod;
+}
+#sponsor_first_wrap li{
+    width : 100px;
+    height: 80px;
+    background-color: cyan;
+    text-align: center;
+    line-height: 80px;
+}
+#sponsor_first_wrap li:first-child{
+    margin-left : 200px;
+}
+#sponsor_first_wrap li:last-child{
+    margin-right : 200px;
+}
+
+#sponsor_site_bot_wrap{
+    width : 1920px;
+    height: 150px;
+    background-color: cornsilk;
+    position : relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor_second_wrap{
+    width : 1000px;
+    height: 70px;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#sponsor_second_wrap_bot{
+    background-color: deepskyblue;
+}
+.sponsor_second_wrap li{
+    width : 80px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    background-color: firebrick;
+}
+
+/* sponsor End */
+/* section End */
+
+
+/* footer Start */
+footer{
+    width : 1920px;
+    overflow: hidden;
+    background-color: firebrick;
+    margin-top : 50px;
+}
+/* footer Top Start */
+#footer_top{
+    width : 900px;
+    height : 100px;
+    background-color: gray;
+    margin-top : 50px;
+    margin-left : 510px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer_sns{
+    width : 400px;
+    height: 80px;
+    margin-left : 20px;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer_sns li{
+    float : left;
+    width : 60px;
+    height: 60px;
+    background-color: indigo;
+}
+
+#login_join{
+    width : 200px;
+    height: 80px;
+    background-color: indigo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_join_btn{
+    width : 90px;
+    height: 45px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 45px;
+}
+
+#footer_select{
+    height: 45px;
+    margin-right : 20px;
+}
+/* footer top End */
+
+/* footer bot Start */
+#footer_bot{
+    width : 1920px;
+    height: 45px;
+    background-color: khaki;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#notice_menu{
+    width : 500px;
+    height: 45px;
+    background-color: lavender;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left : 20px;
+}
+#notice_menu li{
+    width : 150px;
+    height: 45px;
+    background-color: lightblue;
+    font-size : 12px;
+    text-align: left;
+    line-height: 45px;
+}
+#copyright{
+    width : 200px;
+    height:  45px;
+    background-color: lightcoral;
+    margin-right : 30px;
+    text-align: right;
+    line-height: 45px;
+}

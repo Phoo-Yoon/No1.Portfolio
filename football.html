@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/swiper.js"></script>
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/pc.css" rel="stylesheet" type="text/css">
+    <title>Football</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <article id="logo_wrap">
+                <div id="logo_img"><a href="#">팀로고</a></div>
+                <div id="logo_text"><a href="#">팀이름</a></div>
+            </article>
+            <!-- logo_wrap End -->
+
+            <article id="header_right">
+                <ul id="shop_my">
+                    <li><a href="#">장바구니</a></li>
+                    <li><a href="#">로그인</a></li>
+                </ul>
+
+                <select>
+                    <option>옵션 1</option>
+                    <option>옵션 2</option>
+                    <option>옵션 3</option>
+                    <option>옵션 4</option>
+                </select>
+
+            </article>
+            <!-- header_right End -->
+
+        </header>
+        <!-- header End -->
+
+        <section>
+            <!-- main_article_rank Start -->
+            <article id="main_article_rank">
+                <!-- Swiper main_article-->
+                <div class="swiper-container" id="main_article_container">
+                    <div class="swiper-wrapper" id="main_article_wrapper">
+                        <div class="swiper-slide main_article_slide">Slide 1</div>
+                        <div class="swiper-slide main_article_slide">Slide 2</div>
+                        <div class="swiper-slide main_article_slide">Slide 3</div>
+                        <div class="swiper-slide main_article_slide">Slide 4</div>
+                        <div class="swiper-slide main_article_slide">Slide 5</div>
+                    </div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="../package/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('#main_article_container');
+                </script>
+
+                <div id="rank_wrap">
+                    랭크(overflow hidden X)
+                    스크롤 내려갈 수 있도록
+                </div>
+            </article>
+            <!-- main_article_rank End -->
+
+            <article id="team_schedule_wrap">
+                <div id="result_wrap">최근 경기결과 영역</div>
+                <div id="next_schedule_wrap">다음 경기일정 영역</div>
+                <div id="schedule_wrap">앞으로 경기일정 영역</div>
+            </article>
+            <!-- team_schedule_wrap End -->
+
+            <article id="team_injured_transfer">
+                <!-- 슬라이드 효과 넣기(제이퀴리) -->
+                <div id="injured_mask">부상자 명단(btn 추가하기)</div>
+                <div id="transfer_mask">이적 상황(btn 추가하기)</div>
+            </article>
+            <!-- team_injured_promotion End -->
+
+            <!-- product_wrap Start -->
+            <!-- Swiper -->
+            <div class="swiper-container" id="product_container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide product_slide">Slide 1</div>
+                    <div class="swiper-slide product_slide">Slide 2</div>
+                    <div class="swiper-slide product_slide">Slide 3</div>
+                    <div class="swiper-slide product_slide">Slide 4</div>
+                    <div class="swiper-slide product_slide">Slide 5</div>
+                    <div class="swiper-slide product_slide">Slide 6</div>
+                    <div class="swiper-slide product_slide">Slide 7</div>
+                    <div class="swiper-slide product_slide">Slide 8</div>
+                    <div class="swiper-slide product_slide">Slide 9</div>
+                    <div class="swiper-slide product_slide">Slide 10</div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="../package/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('#product_container', {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                });
+            </script>
+            <!-- product_wrap End -->
+
+            <!-- sponsor site Start -->
+            <article id="sponsor_site_wrap">
+                <div id="sponsor_site_top_wrap">
+                    <ul id="sponsor_first_wrap">
+                        <li><a href="#">아디다스</a></li>
+                        <li><a href="#">쉐보레</a></li>
+                        <li><a href="#">AON</a></li>
+                        <li><a href="#">KOHLER</a></li>
+                    </ul>
+                </div>
+                <div id="sponsor_site_bot_wrap">
+                    <ul id="sponsor_second_wrap_top" class="sponsor_second_wrap">
+                        <li><a href="#">AEROFLOT</a></li>
+                        <li><a href="#">apollo</a></li>
+                        <li><a href="#">cadbury</a></li>
+                        <li><a href="#">cannon</a></li>
+                        <li><a href="#">chivas</a></li>
+                        <li><a href="#">dhl</a></li>
+                        <li><a href="#">gulf</a></li>
+                        <li><a href="#">hcl</a></li>
+                        <li><a href="#">konami</a></li>
+                    </ul>
+                    <ul id="sponsor_second_wrap_bot" class="sponsor_second_wrap">
+                        <li><a href="#">marruitt</a></li>
+                        <li><a href="#">maui-jim</a></li>
+                        <li><a href="#">melitta</a></li>
+                        <li><a href="#">mlily</a></li>
+                        <li><a href="#">remington</a></li>
+                        <li><a href="#">swissquote</a></li>
+                        <li><a href="#">tag-heuer</a></li>
+                        <li><a href="#">visit-malta</a></li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <!-- section End -->
+
+        <!-- footer Start -->
+        <footer>
+            <!-- footer top Start -->
+            <div id="footer_top">
+                <!-- footer_sns Start -->
+                <ul id="footer_sns">
+                    <li><a href="#">유투브</a></li>
+                    <li><a href="#">카카오스토리</a></li>
+                    <li><a href="#">카카오톡</a></li>
+                    <li><a href="#">페이스북</a></li>
+                    <li><a href="#">트위터</a></li>
+                    <li><a href="#">인스타그램</a></li>
+                </ul>
+                <!-- footer_sns End -->
+
+                <!-- login_join Start -->
+                <nav id="login_join">
+                    <div class="login_join_btn" id="login_btn">로그인</div>
+                    <div class="login_join_btn" id="join_btn">가입</div>
+                </nav>
+                <!-- login_join End -->
+
+                <!-- team_select start -->
+                <select id="footer_select">
+                    <option>옵션 1</option>
+                    <option>옵션 2</option>
+                    <option>옵션 3</option>
+                    <option>옵션 4</option>
+                </select>
+                <!-- team_select End -->
+            </div>
+            <!-- footer top End -->
+
+            <!-- footer bot Start -->
+            <div id="footer_bot">
+                <ul id="notice_menu">
+                    <li><a href="#">웹사이트 이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+                <nav id="copyright">© 2021 EPL Fan Site</nav>
+            </div>
+
+        </footer>
+        <!-- footer End -->
+    </div>
+
+</body>
+
+</html>
